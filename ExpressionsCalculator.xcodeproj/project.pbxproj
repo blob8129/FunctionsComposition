@@ -11,10 +11,6 @@
 		CE7DD4881F0E1DFF005CDCB3 /* ExpressionsCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7DD4871F0E1DFF005CDCB3 /* ExpressionsCalculatorTests.swift */; };
 		CE7DD48A1F0E1DFF005CDCB3 /* ExpressionsCalculator.h in Headers */ = {isa = PBXBuildFile; fileRef = CE7DD47C1F0E1DFF005CDCB3 /* ExpressionsCalculator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CE7DD4941F0E1E16005CDCB3 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7DD4931F0E1E16005CDCB3 /* Stack.swift */; };
-		CE7DD4961F0E1E85005CDCB3 /* OperatorAssociativity.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7DD4951F0E1E85005CDCB3 /* OperatorAssociativity.swift */; };
-		CE7DD4981F0E1EA1005CDCB3 /* OperatorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7DD4971F0E1EA1005CDCB3 /* OperatorType.swift */; };
-		CE7DD49A1F0E1EE1005CDCB3 /* TokenType.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7DD4991F0E1EE1005CDCB3 /* TokenType.swift */; };
-		CE7DD49C1F0E1F0A005CDCB3 /* OperatorToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7DD49B1F0E1F0A005CDCB3 /* OperatorToken.swift */; };
 		CE7DD49F1F0E1F4D005CDCB3 /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7DD49E1F0E1F4D005CDCB3 /* Token.swift */; };
 		CE7DD4A11F0E1F7A005CDCB3 /* ReversePolishNotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7DD4A01F0E1F7A005CDCB3 /* ReversePolishNotation.swift */; };
 		CE7DD4A31F0E2020005CDCB3 /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7DD4A21F0E2020005CDCB3 /* Calculator.swift */; };
@@ -39,10 +35,6 @@
 		CE7DD4871F0E1DFF005CDCB3 /* ExpressionsCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpressionsCalculatorTests.swift; sourceTree = "<group>"; };
 		CE7DD4891F0E1DFF005CDCB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE7DD4931F0E1E16005CDCB3 /* Stack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
-		CE7DD4951F0E1E85005CDCB3 /* OperatorAssociativity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OperatorAssociativity.swift; sourceTree = "<group>"; };
-		CE7DD4971F0E1EA1005CDCB3 /* OperatorType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OperatorType.swift; sourceTree = "<group>"; };
-		CE7DD4991F0E1EE1005CDCB3 /* TokenType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TokenType.swift; sourceTree = "<group>"; };
-		CE7DD49B1F0E1F0A005CDCB3 /* OperatorToken.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OperatorToken.swift; sourceTree = "<group>"; };
 		CE7DD49E1F0E1F4D005CDCB3 /* Token.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Token.swift; sourceTree = "<group>"; };
 		CE7DD4A01F0E1F7A005CDCB3 /* ReversePolishNotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReversePolishNotation.swift; sourceTree = "<group>"; };
 		CE7DD4A21F0E2020005CDCB3 /* Calculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
@@ -92,10 +84,6 @@
 				CE7DD47C1F0E1DFF005CDCB3 /* ExpressionsCalculator.h */,
 				CE7DD47D1F0E1DFF005CDCB3 /* Info.plist */,
 				CE7DD4931F0E1E16005CDCB3 /* Stack.swift */,
-				CE7DD4951F0E1E85005CDCB3 /* OperatorAssociativity.swift */,
-				CE7DD4971F0E1EA1005CDCB3 /* OperatorType.swift */,
-				CE7DD4991F0E1EE1005CDCB3 /* TokenType.swift */,
-				CE7DD49B1F0E1F0A005CDCB3 /* OperatorToken.swift */,
 				CE7DD49E1F0E1F4D005CDCB3 /* Token.swift */,
 				CE7DD4A01F0E1F7A005CDCB3 /* ReversePolishNotation.swift */,
 				CE7DD4A21F0E2020005CDCB3 /* Calculator.swift */,
@@ -225,13 +213,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE7DD4A11F0E1F7A005CDCB3 /* ReversePolishNotation.swift in Sources */,
-				CE7DD49C1F0E1F0A005CDCB3 /* OperatorToken.swift in Sources */,
-				CE7DD4961F0E1E85005CDCB3 /* OperatorAssociativity.swift in Sources */,
 				CE7DD4A51F0E2097005CDCB3 /* TokenFactory.swift in Sources */,
-				CE7DD49A1F0E1EE1005CDCB3 /* TokenType.swift in Sources */,
 				CE7DD49F1F0E1F4D005CDCB3 /* Token.swift in Sources */,
 				CE7DD4A31F0E2020005CDCB3 /* Calculator.swift in Sources */,
-				CE7DD4981F0E1EA1005CDCB3 /* OperatorType.swift in Sources */,
 				CE7DD4941F0E1E16005CDCB3 /* Stack.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

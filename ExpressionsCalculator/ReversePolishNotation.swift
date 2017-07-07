@@ -10,13 +10,13 @@ import Foundation
 
 
 // This returns the result of the shunting yard algorithm
-public func reversePolishNotation(_ expression: [Token]) -> [Token] {
+func reversePolishNotation(_ expression: [Token]) -> [Token] {
     
     var tokenStack = Stack<Token>()
     var reversePolishNotation = [Token]()
     
     for token in expression {
-        switch token.tokenType {
+        switch token {
         case .operand(_):
             reversePolishNotation.append(token)
             
@@ -24,24 +24,20 @@ public func reversePolishNotation(_ expression: [Token]) -> [Token] {
             tokenStack.push(token)
             
         case .closeBracket:
-            while tokenStack.count > 0, let tempToken = tokenStack.pop(), !tempToken.isOpenBracket {
+            while tokenStack.count > 0, let tempToken = tokenStack.pop(),  tempToken != .openBracket {
                 reversePolishNotation.append(tempToken)
             }
             
-        case .Operator(let operatorToken):
+        case .operat0r(_, _):
             for tempToken in tokenStack.makeIterator() {
-                if !tempToken.isOperator {
+                if tempToken.isOperator == false {
                     break
                 }
                 
-                if let tempOperatorToken = tempToken.operatorToken {
-//                    if operatorToken.associativity == .leftAssociative && operatorToken <= tempOperatorToken
-//                        || operatorToken.associativity == .rightAssociative && operatorToken < tempOperatorToken {
-                    if  operatorToken <= tempOperatorToken {
-                        reversePolishNotation.append(tokenStack.pop()!)
-                    } else {
-                        break
-                    }
+                if token <= tempToken {
+                    reversePolishNotation.append(tokenStack.pop()!)
+                } else {
+                    break
                 }
             }
             tokenStack.push(token)

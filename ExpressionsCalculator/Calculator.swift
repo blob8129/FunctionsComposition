@@ -60,10 +60,9 @@ public struct Calculator {
         var stack = Stack<Double>()
 
         res.forEach { token in
-            switch token.tokenType {
-            case .Operator(let opToken):
+            switch token {
+            case .operat0r(let operation, _):
                 guard let o1 = stack.pop(), let o2 = stack.pop() else { return }
-                let operation = opToken.operatorType.operation
                 stack.push(operation(o2, o1))
             case .operand(let operand):
                 stack.push(operand)

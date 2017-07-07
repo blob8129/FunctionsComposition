@@ -16,16 +16,13 @@ struct TokenFactory {
             guard let operand = Double(numAndElement.element) else {
                 return nil
             }
-            return Token(operand: operand)
+            return Token.operand(operand)
         case 1:
-            guard let operatorType = OperatorType(operat0r: numAndElement.element) else {
-                return nil
-            }
-            return Token(operatorType: operatorType)
+            return Token(operat0r: numAndElement.element)
         case 2:
-            return Token(tokenType: .openBracket)
+            return Token.openBracket
         case 3:
-            return Token(tokenType: .closeBracket)
+            return Token.closeBracket
         default:
             return nil
         }
