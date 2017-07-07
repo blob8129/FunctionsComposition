@@ -15,6 +15,7 @@
 		CE7DD4A31F0E2020005CDCB3 /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7DD4A21F0E2020005CDCB3 /* Calculator.swift */; };
 		CE7DD4A51F0E2097005CDCB3 /* TokenFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7DD4A41F0E2097005CDCB3 /* TokenFactory.swift */; };
 		CE7DD4A71F0F36E2005CDCB3 /* FunctionComposition.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7DD4A61F0F36E2005CDCB3 /* FunctionComposition.swift */; };
+		CE7DD4A91F0F4C7A005CDCB3 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = CE7DD4A81F0F4C7A005CDCB3 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +40,7 @@
 		CE7DD4A21F0E2020005CDCB3 /* Calculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
 		CE7DD4A41F0E2097005CDCB3 /* TokenFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TokenFactory.swift; sourceTree = "<group>"; };
 		CE7DD4A61F0F36E2005CDCB3 /* FunctionComposition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FunctionComposition.swift; sourceTree = "<group>"; };
+		CE7DD4A81F0F4C7A005CDCB3 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 		CE7DD46F1F0E1DFE005CDCB3 = {
 			isa = PBXGroup;
 			children = (
+				CE7DD4A81F0F4C7A005CDCB3 /* README.md */,
 				CE7DD47B1F0E1DFE005CDCB3 /* ExpressionsCalculator */,
 				CE7DD4861F0E1DFF005CDCB3 /* ExpressionsCalculatorTests */,
 				CE7DD47A1F0E1DFE005CDCB3 /* Products */,
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE7DD4A91F0F4C7A005CDCB3 /* README.md in Sources */,
 				CE7DD4A51F0E2097005CDCB3 /* TokenFactory.swift in Sources */,
 				CE7DD49F1F0E1F4D005CDCB3 /* Token.swift in Sources */,
 				CE7DD4A31F0E2020005CDCB3 /* Calculator.swift in Sources */,
