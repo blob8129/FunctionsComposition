@@ -50,4 +50,9 @@ class ExpressionsCalculatorTests: XCTestCase {
         let calc = Calculator()
         XCTAssertEqual(calc.evaluate("3 + 4.5 * 2 / (1.9 - 5.5 ) * 2 * 3"), -12)
     }
+    
+    func testWrong() {
+        let calc = Calculator()
+        XCTAssertNil(calc.evaluate("AAAA"))
+    }
 }
